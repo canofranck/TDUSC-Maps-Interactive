@@ -1,0 +1,225 @@
+{
+    "districts": {
+        "1":[
+    
+    {"type": "solarCoins", "lat": 868, "lng": 628},
+    {"type": "solarCoins", "lat": 853.5, "lng": 616},
+    {"type": "solarCoins", "lat": 824.5, "lng": 568.5},
+    {"type": "solarCoins", "lat": 800, "lng": 508.5},
+    {"type": "clan", "lat": 818.12, "lng": 444},
+    {"type": "clan", "lat": 796.75, "lng": 425.18},
+    {"type": "solarCoins", "lat": 741.25, "lng": 447},
+    {"type": "clan", "lat": 717.375, "lng": 505.62},
+    {"type": "reputation", "lat": 794.81, "lng": 565.62},
+    {"type": "solarCoins", "lat": 743.25, "lng": 555.75},
+    {"type": "reputation", "lat": 718.5, "lng": 558},
+    {"type": "solarCoins", "lat": 676.87, "lng": 567.37},
+    {"type": "solarCoins", "lat": 738.75, "lng": 617.625},
+    {"type": "solarCoins", "lat": 757.4375, "lng": 614.4375},
+    {"type": "clan", "lat": 848.75, "lng": 707.9375},
+    {"type": "solarCoins", "lat": 757.4375, "lng": 614.4375},
+    {"type": "solarCoins", "lat": 837, "lng": 712.875},
+    {"type": "solarCoins", "lat": 828.25, "lng": 670.8125},
+    {"type": "solarCoins", "lat": 758.5, "lng": 685.5},
+    {"type": "solarCoins", "lat": 707, "lng": 748.5},
+    {"type": "solarCoins", "lat": 668.375, "lng": 770.75},
+    {"type": "solarCoins", "lat": 809.25, "lng": 686.25},
+    {"type": "reputation", "lat": 890, "lng": 741.75},
+    {"type": "solarCoins", "lat": 877.5, "lng": 781},
+    {"type": "solarCoins", "lat": 845.5, "lng": 817.375},
+    {"type": "solarCoins", "lat": 824.75, "lng": 825},
+    {"type": "solarCoins", "lat": 941.8125, "lng": 838.0625},
+    {"type": "solarCoins", "lat": 967, "lng": 918.3125},
+    {"type": "reputation", "lat": 974.75, "lng": 858.125},
+    {"type": "solarCoins", "lat": 1008.875, "lng": 864.125},
+    {"type": "reputation", "lat": 964.5, "lng": 809.5625},
+    {"type": "clan", "lat": 990.375, "lng": 705.625},
+    {"type": "solarCoins", "lat": 1000.25, "lng": 674.25},
+    {"type": "reputation", "lat": 987.5, "lng": 684.625},
+    {"type": "solarCoins", "lat": 980.25, "lng": 652.375},
+    {"type": "solarCoins", "lat": 964, "lng": 685.25},
+    {"type": "solarCoins", "lat": 944.3125, "lng": 730.75},
+    {"type": "solarCoins", "lat": 1010.0625, "lng": 655.875},
+    {"type": "solarCoins", "lat": 993.25, "lng": 629.75},
+    {"type": "solarCoins", "lat": 915.5625, "lng": 615.5625},
+    {"type": "solarCoins", "lat": 903.375, "lng": 596.3125},
+    {"type": "solarCoins", "lat": 943.5, "lng": 545.375},
+    {"type": "solarCoins", "lat": 964.25, "lng": 506.625},
+    {"type": "solarCoins", "lat": 869, "lng": 393.875},
+    {"type": "tresor", "lat": 906.125, "lng": 770.75},
+    {"type": "reputation", "lat": 877.0625, "lng":526.6875},
+    {"type": "solarCoins", "lat": 931, "lng": 862},
+    {"type": "epave", "lat": 1004, "lng":705.5},
+    {"type": "epave", "lat": 947.375, "lng": 870},
+    {"type": "epave2", "lat": 944, "lng": 607}
+    
+    ],
+
+    "2":[
+
+    {"type": "epave", "lat": 1316.55, "lng": 1045.64},
+    {"type": "epave2", "lat": 1533.60, "lng": 1199.29},
+    {"type": "tresor", "lat": 1351.42, "lng": 1009.5},
+    {"type": "solarCoins", "lat": 1362.21, "lng": 980},
+    {"type": "solarCoins", "lat": 1332.60, "lng": 1030.60},
+    {"type": "reputation", "lat": 1382.96, "lng": 971.20},
+    {"type": "reputation", "lat": 1395.96, "lng": 1010.73},
+    {"type": "tresor", "lat": 1420.71, "lng": 1044.47},
+    {"type": "solarCoins", "lat": 1434.71, "lng": 1024.2},
+    {"type": "clan", "lat":1470.73, "lng": 1048.73},
+    {"type": "solarCoins", "lat": 1489.98, "lng": 1057.23},
+    {"type": "solarCoins", "lat": 1460.96, "lng": 1087.2},
+    {"type": "solarCoins", "lat": 1462.48, "lng": 1106.23},
+    {"type": "solarCoins", "lat": 1511.98, "lng": 1086.79},
+    {"type": "solarCoins", "lat": 1519.92, "lng": 1114.04},
+    {"type": "solarCoins", "lat": 1513.74, "lng": 1128.99},
+    {"type": "solarCoins", "lat": 1485.49, "lng": 1182.43},
+    {"type": "solarCoins", "lat": 1524.80, "lng": 1203.74},
+    {"type": "solarCoins", "lat": 1517.73, "lng": 1196.48},
+    {"type": "solarCoins", "lat": 1528.60, "lng": 1173.97},
+    {"type": "solarCoins", "lat": 1515.05, "lng": 1257.01},
+    {"type": "solarCoins", "lat": 1432.98, "lng": 1136.06},
+    {"type": "solarCoins", "lat": 1417.73, "lng": 1111.73}
+
+    ],
+    
+    "3":[
+
+    {"type": "epave", "lat": 1391.46, "lng": 689.15},
+    {"type": "tresor", "lat": 1422.96, "lng": 524.71},
+    {"type": "solarCoins", "lat": 1322.42, "lng": 505.91},
+    {"type": "tresor", "lat": 1367.42, "lng": 627.43},
+    {"type": "solarCoins", "lat": 1377.35, "lng": 710.84},
+    {"type": "solarCoins", "lat": 1389.99, "lng": 672.42},
+    {"type": "clan", "lat":1429.35, "lng": 559.22},
+    {"type": "reputation", "lat": 1411.46, "lng": 601.21},
+    {"type": "solarCoins", "lat": 1414.71, "lng": 646.96},
+    {"type": "clan", "lat":1414.21, "lng": 628.19},
+    {"type": "reputation", "lat": 1430.23, "lng": 627.23},
+    {"type": "solarCoins", "lat": 1447.05, "lng": 585.67},
+    {"type": "reputation", "lat": 1364.1, "lng": 689.11},
+    {"type": "solarCoins", "lat": 1438.05, "lng":412.92},
+    {"type": "solarCoins", "lat": 1443.49, "lng":385.48},
+    {"type": "solarCoins", "lat": 1482.21, "lng":381.2},
+    {"type": "solarCoins", "lat": 1474.48, "lng":434.86},
+    {"type": "solarCoins", "lat": 1344.1, "lng":678.74},
+    {"type": "clan", "lat":1329.35, "lng": 647.98},
+    {"type": "reputation", "lat": 1399.48, "lng": 535.09},
+    {"type": "clan", "lat":1377.98, "lng": 517.1},
+    {"type": "solarCoins", "lat": 1271.73, "lng":671.72},
+    {"type": "solarCoins", "lat": 1346.23, "lng":547.85},
+    {"type": "solarCoins", "lat": 1384.55, "lng":606.8},
+    {"type": "solarCoins", "lat": 1344.35, "lng":626.36},
+    {"type": "clan", "lat":1377.98, "lng": 517.1},
+    {"type": "clan", "lat":1321.3, "lng": 622.92},
+    {"type": "solarCoins", "lat": 1298.96, "lng":624.45}
+
+    ],
+    "4":[
+
+    {"type": "epave", "lat": 1110.96, "lng": 151.03},
+    {"type": "epave2", "lat": 888.35, "lng": 285.15},
+    {"type": "solarCoins", "lat": 1203.42, "lng":122.83},
+    {"type": "solarCoins", "lat": 1214.35, "lng":118.25},
+    {"type": "solarCoins", "lat": 1222.55, "lng":141.31},
+    {"type": "clan", "lat":1166.23, "lng": 121.56},
+    {"type": "reputation", "lat": 1140.46, "lng": 139.5},
+    {"type": "solarCoins", "lat": 1090.35, "lng":158.12},
+    {"type": "clan", "lat":1063.71, "lng": 206.51},
+    {"type": "solarCoins", "lat": 1007.23, "lng":217.38},
+    {"type": "tresor", "lat": 996.92, "lng": 243.01},
+    {"type": "solarCoins", "lat": 977.35, "lng":249.5},
+    {"type": "solarCoins", "lat": 905.85, "lng":298.27},
+    {"type": "solarCoins", "lat": 911.49, "lng":276.37},
+    {"type": "reputation", "lat": 931.35, "lng": 250.38},
+    {"type": "solarCoins", "lat": 1028.74, "lng":253.25},
+    {"type": "solarCoins", "lat": 1076.42, "lng":244.01},
+    {"type": "solarCoins", "lat": 1119.8, "lng":218.56},
+    {"type": "solarCoins", "lat": 1119.46, "lng":207.27},
+    {"type": "solarCoins", "lat": 1011.96, "lng":315.5},
+    {"type": "clan", "lat":1026.98, "lng": 198.89}
+   
+
+    ],
+    "5":[
+
+    {"type": "epave", "lat": 1497.11, "lng": 1325.70},
+    {"type": "epave2", "lat": 1377.98, "lng": 1483.51},
+    {"type": "tresor", "lat": 1458.42, "lng": 1267.02},
+    {"type": "reputation", "lat": 1480.98, "lng": 1290.87},
+    {"type": "reputation", "lat": 1495.60, "lng": 1274.50},
+    {"type": "solarCoins", "lat": 1491.17, "lng":1317.25}, {"type": "solarCoins", "lat": 1490.99, "lng":1340.68},
+    {"type": "solarCoins", "lat": 1462.74, "lng":1309.69},
+    {"type": "solarCoins", "lat": 1464.6, "lng":1331.13},
+    {"type": "clan", "lat":1433.85, "lng": 1329.12},
+    {"type": "solarCoins", "lat": 1422.6, "lng":1304.5},
+    {"type": "solarCoins", "lat": 1382.11, "lng":1344.62},
+    {"type": "solarCoins", "lat": 1438.48, "lng":1356.63},
+    {"type": "clan", "lat":1436.99, "lng":1386.43},
+    {"type": "solarCoins", "lat": 1439.6, "lng":1399.87},
+    {"type": "solarCoins", "lat": 1420.3, "lng":1408},
+    {"type": "solarCoins", "lat": 1379.85, "lng":1442.63},
+    {"type": "solarCoins", "lat": 1358.92, "lng":1448.06},
+    {"type": "clan", "lat":1370.92, "lng":1468.68},
+    {"type": "solarCoins", "lat": 1397.6, "lng":1463.75},
+    {"type": "reputation", "lat": 1388.11, "lng": 1449.56},
+    {"type": "solarCoins", "lat": 1427.99, "lng":1454},
+    {"type": "solarCoins", "lat": 1358.48, "lng":1534.62},
+    {"type": "clan", "lat":1351.23, "lng":1541},
+    {"type": "solarCoins", "lat": 1328.21, "lng":1509.75},
+    {"type": "solarCoins", "lat": 1309.98, "lng":1531.25},
+    {"type": "solarCoins", "lat": 1287.1, "lng":1481.14},
+    {"type": "solarCoins", "lat": 1354.99, "lng":1573.56},
+    {"type": "solarCoins", "lat": 1464.36, "lng":1283.07}
+
+
+
+    ],
+    "6":[
+
+    {"type": "epave", "lat": 1199.35, "lng": 1032},
+    {"type": "epave2", "lat": 1242.80, "lng": 906.64}
+    ],
+    "7":[
+
+    {"type": "epave", "lat": 700.10, "lng": 1107.78},
+    {"type": "epave2", "lat": 876.92, "lng": 983.10}
+    ],
+    "8":[
+
+    {"type": "epave", "lat": 1069.21, "lng": 1587.33},
+    {"type": "epave2", "lat": 1158.21, "lng": 1734.54}
+    ],
+    "9":[
+
+    {"type": "epave", "lat": 469.71, "lng": 1652.78},
+    {"type": "epave2", "lat": 605.17, "lng": 1940.70}
+    ],
+    "10":[
+
+    {"type": "epave", "lat": 455.80, "lng": 1196.87},
+    {"type": "epave2", "lat": 329.96, "lng": 1332.45}
+    ],
+    "11":[
+
+    {"type": "epave", "lat": 813.36, "lng": 1437.44},
+    {"type": "epave2", "lat": 1325.05, "lng": 1126.39}
+    ],
+    "12":[
+
+    {"type": "epave2", "lat": 1143.85, "lng": 511.80}
+    ],
+    "13":[
+
+    {"type": "epave", "lat": 1297.46, "lng": 962.01},
+    {"type": "epave2", "lat": 1317.60, "lng": 882.02}
+    ],
+    "14":[
+
+    {"type": "epave2", "lat": 1456.30, "lng": 494.34},
+    {"type": "epave2", "lat": 1299.80, "lng": 105.56},
+    {"type": "epave", "lat": 1472.21, "lng": 231.96}
+
+    ]
+}
+}
