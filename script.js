@@ -6,7 +6,8 @@ var imageBounds = [[0, 0], [1571, 2069]];
 var map = L.map('map', {
     crs: L.CRS.Simple,
     minZoom: -1,
-    maxZoom: 4
+    maxZoom: 4,
+    attributionControl: false
 });
 
 // Ajouter l'image de la carte en superposition
@@ -32,6 +33,8 @@ function loadMarkers(district = "all") {
     reputation.clearLayers();
     clan.clearLayers();
     tresor.clearLayers();
+    // Objet pour stocker les comptes des collectibles par district
+    let collectiblesCount = {};
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
@@ -39,6 +42,11 @@ function loadMarkers(district = "all") {
             
             // Parcourir les objets dans chaque district
             Object.keys(districtsData).forEach(districtKey => {
+                 // Initialiser les compteurs pour ce district
+                 collectiblesCount[districtKey] = {
+                    solarCoins: 0,
+                   
+                };
                     districtsData[districtKey].forEach(function(item) {
                     var lat = parseFloat(item.lat);
                     var lng = parseFloat(item.lng);
@@ -55,14 +63,18 @@ function loadMarkers(district = "all") {
                     switch(item.type) {
                         case 'solarCoins':
                             solarCoins.addLayer(marker);
+                            // collectiblesCount[districtKey].solarCoins++;
                             break;
                         case 'reputation':
                             reputation.addLayer(marker);
+                            // collectiblesCount[districtKey].solarCoins++;
                             break;
                         case 'clan':
                             clan.addLayer(marker);
+                            // collectiblesCount[districtKey].solarCoins++;
                             break;
                         case 'tresor':
+                            // collectiblesCount[districtKey].solarCoins++;
                             tresor.addLayer(marker);
                             break;
                         case 'epave':
@@ -82,6 +94,8 @@ function loadMarkers(district = "all") {
             map.addLayer(tresor);
             map.addLayer(epaves);
             map.addLayer(epaves2);
+             // Afficher le compte des collectibles par district dans la console
+            //console.log("Comptage des collectibles par district :", collectiblesCount);
              // Appeler la fonction pour ajuster les icônes après le chargement des marqueurs
              updateIconSize();
         })
@@ -178,11 +192,47 @@ document.getElementById('districtvideo-select').addEventListener('change', funct
             window.open("https://www.youtube.com/watch?v=kLAFxxGVSUQ", "_blank");
             break;
         case 'district3':
-            window.open("", "_blank");
+            window.open("https://www.youtube.com/watch?v=17yjcAzInNA", "_blank");
             break;
-        // Ajouter les autres districts ici
+        
+        case 'district4':
+            window.open("https://www.youtube.com/watch?v=0JnoxfzGP4c", "_blank");
+            break;
+        
+        case 'district5':
+            window.open("https://www.youtube.com/watch?v=Kj20xFMnd-8", "_blank");
+            break;
+        
+        case 'district6':
+            window.open("https://www.youtube.com/watch?v=QdKhUUNQRNQ", "_blank");
+            break;
+        case 'district7':
+                window.open("https://www.youtube.com/watch?v=YNX4z1S-TSc", "_blank");
+            break;
+        case 'district8':
+                window.open("https://www.youtube.com/watch?v=M2kbOqy22ew", "_blank");
+            break;
+        case 'district9':
+                window.open("https://www.youtube.com/watch?v=WpYW57B3TUk", "_blank");
+            break;
+        case 'district10':
+                window.open("https://www.youtube.com/watch?v=-goiB8z9bf0", "_blank");
+            break;
+        case 'district11':
+                window.open("https://www.youtube.com/watch?v=i7Y9dAtUYQs&t=171s", "_blank");
+            break;
+        case 'district12':
+                window.open("https://www.youtube.com/watch?v=7azIwKZpBAo", "_blank");
+            break;
+        case 'district13':
+                window.open("https://www.youtube.com/watch?v=mBFMChDMPd0", "_blank");
+            break;
+        case 'district14':
+                window.open("https://www.youtube.com/watch?v=rtMg5j3yqfc", "_blank");
+            break;
+        
         default:
-            console.log("Aucun district sélectionné");
+             console.log("Aucun district sélectionné");
     }
 });
 
@@ -220,8 +270,7 @@ map.on('click', function(e) {
     var lat = e.latlng.lat;
     var lng = e.latlng.lng;
     //console.log(`Coordonnées cliquées : (${lat}, ${lng})`);
-    // Ajout d'un marqueur à la position cliquée (optionnel)
-    // L.marker([lat, lng]).addTo(map).bindPopup('Nouveau point').openPopup();
+    
 });
 
 // Fonction pour mettre à jour la taille des icônes en fonction du zoom
@@ -299,3 +348,17 @@ map.on('zoomend', updateIconSize);
 
 // Appeler la fonction pour ajuster les icônes dès le chargement initial
 updateIconSize();
+
+// changement de langue
+// const languageSelect = document.getElementById('language-select');
+//         const buttons = document.querySelectorAll('.menu-btn');
+//         const title = document.getElementById('title');
+
+//         languageSelect.addEventListener('change', (event) => {
+//             const language = event.target.value;
+//             buttons.forEach(button => {
+//                 button.textContent = button.getAttribute(`data-${language}`);
+//             });
+//             title.textContent = language === 'fr' ? "Maps interactive Test Drive Unlimited Solar Crown" : "Interactive Maps Test Drive Unlimited Solar Crown";
+//         });
+        
